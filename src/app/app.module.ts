@@ -11,6 +11,9 @@ import {RouterModule} from '@angular/router';
 import { Step1Component } from './step1/step1.component';
 import { Step2Component } from './step2/step2.component';
 import { Step3Component } from './step3/step3.component';
+import { Sub1Component } from './sub1/sub1.component';
+import { Sub2Component } from './sub2/sub2.component';
+import { Sub3Component } from './sub3/sub3.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { Step3Component } from './step3/step3.component';
     DashboardComponent,
     Step1Component,
     Step2Component,
-    Step3Component
+    Step3Component,
+    Sub1Component,
+    Sub2Component,
+    Sub3Component
   ],
   imports: [
     BrowserModule,
