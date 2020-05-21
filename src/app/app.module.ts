@@ -8,13 +8,19 @@ import { EncodingComponent } from './encoding/encoding.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {HttpClientModule} from '@angular/common/http';
 import {RouterModule} from '@angular/router';
+import { Step1Component } from './step1/step1.component';
+import { Step2Component } from './step2/step2.component';
+import { Step3Component } from './step3/step3.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     EncodingComponent,
-    DashboardComponent
+    DashboardComponent,
+    Step1Component,
+    Step2Component,
+    Step3Component
   ],
   imports: [
     BrowserModule,
