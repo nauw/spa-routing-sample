@@ -1,5 +1,22 @@
 # SpaRoutingSample
 
+The goal of this project is to demonstrate the usage of Single Page Application Hosted on Amazon S3 + Cloudfront.
+
+The Cloudfront is used as Proxy server, and manage the routing for every module.
+
+Every module is represented by a subfolder at the root of the domain.
+Each module is deployd in a different S3 bucket, to manage decoupling.
+
+Each module is responsible for is own routing and menu.
+
+A Lambda@Edge must be attached to the cloudfront Origin request, in order to manage "Deep Link" and page refresh to reach the "Controller", index.html
+
+example visible at www.jetlab.org (work in progress)
+
+
+
+
+# Angular Part
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server
